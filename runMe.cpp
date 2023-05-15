@@ -11,6 +11,9 @@
 #include "task7_stl/mainTask7.hpp"
 #include "task6_textsearch/mainTask6.hpp"
 #include "task7_stl/mainTask71.hpp"
+#include "task8_textprocessing/mainTask8.hpp"
+#include "task10_datacompressing/mainTask10.hpp"
+#include "task11_regexes/mainTask11.hpp"
 
 // Main function.
 int main() {
@@ -41,6 +44,15 @@ int main() {
             break;
         case 71:
             mainTask71();
+            break;
+        case 8:
+            mainTask8();
+            break;
+        case 10:
+            mainTask10();
+            break;
+        case 11:
+            mainTask11();
             break;
         default:
             std::cout << "No such task" << std::endl;
