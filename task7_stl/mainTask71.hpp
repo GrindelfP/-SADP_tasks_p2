@@ -46,7 +46,7 @@ void mainTask71() {
 
     std::cout << "---------------------------" << std::endl;
 
-    up.reset(new Test[2]);
+    up.reset(new Test7[2]);
 
     std::cout << "----------------------------" << std::endl;
 }

@@ -7,7 +7,7 @@
 #include "task3_complexnumber/mainTask3.hpp"
 #include "task4_constructors/mainTask4.hpp"
 #include "task5_lifetime/mainTask5.hpp"
-#include "task6a_refcount/mainTask6a.hpp"
+#include "task6a_refcount/mainTask61.hpp"
 #include "task7_stl/mainTask7.hpp"
 #include "task6_textsearch/mainTask6.hpp"
 #include "task7_stl/mainTask71.hpp"
@@ -31,7 +31,7 @@ int main() {
             mainTask5();
             break;
         case 61:
-            mainTask6a();
+            mainTask61();
             break;
         case 6:
             mainTask6();
@@ -42,6 +42,8 @@ int main() {
         case 71:
             mainTask71();
             break;
+        default:
+            std::cout << "No such task" << std::endl;
     }
 
     return 0;

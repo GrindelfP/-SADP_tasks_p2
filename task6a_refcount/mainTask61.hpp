@@ -7,7 +7,7 @@
 
 #include "a_string.hpp"
 
-void mainTask6a() {
+void mainTask61() {
     AString a = "Hello";
     AString b = " from Keir-Reign";
     std::cout << "a = " << a << std::endl;
